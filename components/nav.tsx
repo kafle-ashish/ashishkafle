@@ -1,4 +1,4 @@
-import React, { ReactElement, Dispatch, SetStateAction } from "react";
+import React, { ReactElement } from "react";
 import styles from "./components.module.css";
 import Button from "./button";
 import { useInView } from "react-intersection-observer";
@@ -8,9 +8,9 @@ interface Props {
 }
 
 export default function Nav({ history }: Props): ReactElement {
-  const [active, setActive] = history;
+  const [active, __] = history;
 
-  const [ref, inView, entry] = useInView({
+  const [ref, _, entry] = useInView({
     /* Optional options */
     threshold: [0.25, 0.5, 0.75],
   });
