@@ -1,0 +1,22 @@
+:root {
+  --flickr-pink: #f72585;
+  --purple: #7209b7;
+  --trypan-blue: #3a0ca3;
+  --ultramarine-blue: #4361ee;
+  --vivid-sky-blue: #4cc9f0;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+.App {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
