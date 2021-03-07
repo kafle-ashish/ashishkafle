@@ -5,6 +5,7 @@ import Hero from "../components/hero";
 import Nav from "../components/nav";
 import Skills from "../components/skills";
 
+
 export default function App() {
   const [active, setActive] = useState("home");
 
